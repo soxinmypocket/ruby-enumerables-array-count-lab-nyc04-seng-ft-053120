@@ -5,7 +5,6 @@ total = 0
     if num.class == String
       total = total + 1
     end
-    total += 1
 end
 
 def count_empty_strings(array)
