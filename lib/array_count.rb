@@ -3,7 +3,7 @@ def count_strings(array)
 total = 0
   array.count do |num|
     if num.class == String
-      total = total + 1
+      total +=  1
     end
 end
 
