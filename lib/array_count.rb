@@ -4,7 +4,8 @@ total = 0
   array.count do |num|
     if num.class == String
       total = total + 1
-
+    end
+    total += 1
 end
 
 def count_empty_strings(array)
